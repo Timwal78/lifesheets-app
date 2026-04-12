@@ -1,0 +1,21 @@
+{
+  "name": "lifesheets-app",
+  "version": "1.0.0",
+  "description": "LifeSheets Super-App by ScriptMasterLabs — 12 productivity modules in one",
+  "main": "server.cjs",
+  "scripts": {
+    "dev": "vite --port 4600",
+    "build": "vite build",
+    "start": "node server.cjs"
+  },
+  "keywords": ["lifesheets", "productivity", "scriptmasterlabs"],
+  "author": "Timothy Walton",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.0.8"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
