@@ -1,1 +1,10 @@
 node_modules
+
+# Security: never commit secrets or env files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
