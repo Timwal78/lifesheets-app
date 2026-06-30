@@ -1,0 +1,13 @@
+{
+  "name": "lifesheets-app",
+  "description": "AI-native life management sheets replacing traditional spreadsheets",
+  "owner": "ScriptMasterLabs",
+  "github": "https://github.com/timwal78/lifesheets-app",
+  "contact": "scriptmasterlabs@gmail.com",
+  "sovereign": {
+    "noMockData": true,
+    "liveDataOnly": true,
+    "noTelemetry": true,
+    "enforcedBy": ".github/workflows/sovereign-data-check.yml"
+  }
+}
